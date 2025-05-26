@@ -192,7 +192,7 @@ $
   \
 $
 
-remembering that $lambda in RR$ and $(RR,+)$ is a group, then indeed the above element $in RR^3$
+remembering that $lambda in RR$ and $(RR,+)$ is a group, then indeed closure is a valid property for this structure.
 
 ==== associativity
 
@@ -460,8 +460,8 @@ $ \ psi (mu v) = (psi mu) v \ $
 
 $
   \ psi (mu (et(1), et(2), et(3)))\
-  psi ((mu et(1), mu et(2), mu et(3)))
-  ((psi mu et(1), psi mu et(2), psi mu et(3)))
+  \ psi ((mu et(1), mu et(2), mu et(3)))\
+  \ (psi mu et(1), psi mu et(2), psi mu et(3)) \
   \
 $
 that implies $psi mu et(1) - 2 psi mu et(2) + 3 psi mu et(3)$
@@ -497,4 +497,4 @@ $
   \
 $
 
-if we consider that $psi, mu in RR$ than any value $S not in ZZ$ invalidates this structure as a vector subspace of $RR^3$
+if we consider that $psi, mu in RR$ than any value $(psi mu eta_2) in.not ZZ$ invalidates this structure as a vector subspace of $RR^3$
