@@ -35,11 +35,12 @@ $ \ (lambda + x, lambda + mu^3 + y, lambda - mu^3 + z) = (0,0, 0) \ $
 
 and we deduce that $x = -lambda, y = -(lambda +mu^3), z = -lambda + mu^3$
 
-and indeed as both variables $in RR$ and $RR$ is a group in itself for $+$ operator we again obtain a value $in RR$
+and indeed as both variables are elements of $RR$ and $(RR, +)$ is a group, then it must be the case that both values
+are contained in $RR$.
 so this structure satisfy the inverse property.
 
 
-closure is guaranteed due to $(R,+)$ is a group.
+closure is guaranteed due to the fact that $(RR,+)$ is a group.
 ==== associativity
 now we check for associativity
 
@@ -434,7 +435,7 @@ $
 
 so distributivity of vectors hold
 
-=== distributivity of vectors
+=== distributivity of scalars
 
 $ \ (psi + mu) v = psi v + mu v \ $
 
