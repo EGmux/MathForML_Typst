@@ -43,7 +43,7 @@ $ \ A_Phi = mat(3, 2, 1; 1, 1, 1; 1, -3, 0; 2, 3, 1) \ $
 
 we can use the rank nullity theorem to solve this
 
-$ \ dim(Im(Phi)) = dim(RR^4) - dim(ker(Phi)) \ $
+$ \ dim(im(Phi)) = dim(RR^4) - dim(ker(Phi)) \ $
 
 to find the kernel we can see apply gaussian elimination and check in the row eschelon form if a basis vector can be writtern as linear combination of others
 
@@ -54,14 +54,14 @@ $ \ mat(0, -1, -2; 1, 1, 1; 0, -4, -1; 0, 1, -1), R_1 "switch" R_0 \ $
 $ \ mat(1, 1, 1; 0, -1, -2; 0, -4, -1; 0, 1, -1), R_1 + R_3 \ $
 $ \ mat(1, 1, 1; 0, -1, -2; 0, -4, -1; 0, 0, -3), R_1 + R_3 \ $
 
-thus the $dim(ker(Phi)) = 1$ the $bold(0)_(RR^4)$ is the only element present, we conclude
+thus the $dim(ker(Phi)) = 1$ the $bold(0)_(RR^3)$ is the only element present, we conclude
 
-$ \ dim(Im(Phi)) = 3 \ $ and that indeed true as we have 3 basis vectors.
+$ \ dim(im(Phi)) = 3 \ $ and that indeed true as we have 3 basis vectors.
 
-- Compute the kernel and image of $Phi$. What are $dim(ker(Phi))$ and $dim(Im(Phi))$?
+- Compute the kernel and image of $Phi$. What are $dim(ker(Phi))$ and $dim(im(Phi))$?
 
 $ \ ker(Phi) = {bold(0)} \ $
 
-$ \ Im(Phi) = lambda_1 mat(1; 0; 0; 0) + lambda_2 mat(1; -1; -4; 0) + lambda_3 mat(1; -2; -1; -3) \ $
+$ \ im(Phi) = {lambda_1 mat(1; 0; 0; 0) + lambda_2 mat(1; -1; -4; 0) + lambda_3 mat(1; -2; -1; -3)} \ $
 
-the dimensions are 1 and 3 respectively
+the dimensions are 0 and 3 respectively
