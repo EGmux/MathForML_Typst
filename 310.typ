@@ -31,5 +31,5 @@ $
   \ M_theta bb(x_1) = mat(sqrt(3) / 2, -1 / 2; 1 / 2, sqrt(3) / 2) mat(2; 3) = mat(sqrt(3) - 3 / 2; 1 + 3sqrt(3) / 2) \
 $
 
-$ \ M_theta bb(x_2) = mat(sqrt(3) / 2, -1 / 2; 1 / 2, sqrt(3) / 2) mat(0, -1) = mat(1 / 2; -sqrt(3) / 2) \ $
+$ \ M_theta bb(x_2) = mat(sqrt(3) / 2, -1 / 2; 1 / 2, sqrt(3) / 2) mat(0; -1) = mat(1 / 2; -sqrt(3) / 2) \ $
 
